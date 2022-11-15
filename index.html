@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+    <head>
+        <title>Kő Papír Olló</title>
+        <link rel="icon" type="image/x-icon" href="img/icon.ico">
+        <meta name="description" content="Rock Paper Scissors">
+        <link rel="stylesheet" href="style.css" charset="utf-8">
+        <script src="main.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="points">
+            <span id="your-score">0</span>
+            <span id="none"></span>
+            <span id="computer-score">0</span>
+        </div>
+        <div class="center">
+            <p id="you-chose">Válassz!</p>
+        </div>
+        <div class="center">
+            <img onclick="new Game('Rock')" class="actions" src="img/r.png" alt="Kő">
+            <img onclick="new Game('Paper')" class="actions" src="img/p.png" alt="Papír">
+            <img onclick="new Game('Scissors')" class="actions" src="img/s.png" alt="Olló">
+        </div>
+        <div class="center">
+            <p id="computer-chose"></p>
+            <p id="winner"></p>
+        </div>
+    </body>
+</html>
